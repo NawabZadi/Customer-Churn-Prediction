@@ -25,7 +25,7 @@ from predict import predict_churn
 # --------------------------------------------------
 
 app = FastAPI(
-    title="Customer Churn Prediction API by Amina Fayyaz",
+    title="Customer Churn Prediction API",
     description="API for predicting customer churn",
     version="1.0.0"
 )
