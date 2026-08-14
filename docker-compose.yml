@@ -1,0 +1,13 @@
+#Docker Compose is used to define how our application should run in Docker
+services:
+
+  churn-api:  #name of our service.
+    build: .  # Build this application using the Dockerfile in the current project directory
+    container_name: customer-churn-api
+
+    ports:   # Expose port 8000 on the host machine and map it to port 8000 in the container
+      - "8000:8000"  #HOST/COMPUTER PORT : CONTAINER PORT
+
+
+    #If the container crashes or Docker restarts, try to start the container again, unless I explicitly stopped it.
+    restart: unless-stopped
