@@ -29,7 +29,7 @@ def test_home():
 
     # Check that the expected message is returned
     assert response.json()["message"] == (
-        "Customer Churn Prediction API is running"
+        "Customer Churn Prediction by AMINA FAYYAZ API is running"
     )
 
 
