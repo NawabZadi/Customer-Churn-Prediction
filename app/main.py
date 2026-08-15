@@ -65,7 +65,7 @@ class Customer(BaseModel):
 @app.get("/") #HTTP method = GET and URL = /
 def home():
     return {
-        "message": "Customer Churn Prediction API is running"
+        "message": "Customer Churn Prediction by AMINA FAYYAZ API is running"
     }
 
 
