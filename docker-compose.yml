@@ -1,4 +1,5 @@
-#Docker Compose is used to define how our application should run in Docker
+#Docker Compose is used to define how 
+#our application should run in Docker
 services:
 
   churn-api:  #name of our service.
